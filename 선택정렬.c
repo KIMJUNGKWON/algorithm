@@ -10,6 +10,11 @@ int main(void){
         min = 100;
         for(j = i; j < 10; j++){
             
+            if(arr[j] < min){
+                min = arr[j];
+                index = j;
+            }
+
         }
 
     }
