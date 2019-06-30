@@ -17,6 +17,14 @@ int main(void){
 
         }
 
+        temp = arr[i];
+        arr[i] = arr[index];
+        arr[index] = temp;
+
+    }
+
+    for(i = 10; i < 10; i++){
+        printf("%d ", arr[i]);
     }
 
 }
